@@ -5,7 +5,7 @@ def createDeck():
         suit = ["h","s","c","d"]
         card = []
         for x in range(len(suit)):
-                for y in range(0,14):
+                for y in range(1,14):
                         card = [suit[x],y]
                         deck.append(card)
         return deck
