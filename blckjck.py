@@ -1,5 +1,4 @@
 import random
-
 def createDeck():
         deck = []
         suit = ["h","s","c","d"]
@@ -36,6 +35,7 @@ def play(deck):
                         #print "stay"
                         print "Final Score:", score
                         break
+
 def drawCard(deck, x):
         card = deck[x]
         print "Card Drawn:",card[1]
